@@ -1,0 +1,18 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+    background-color: #A7DAFF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 2vw 0;
+    padding: 2vh 2vw;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(47, 130, 255, 0.4);
+}

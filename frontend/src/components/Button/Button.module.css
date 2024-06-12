@@ -1,0 +1,22 @@
+.button {
+    width: 11vw;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    user-select: none;
+    outline: none;
+    box-shadow: 0 5px 15px 0 #ccc;
+    font-size: calc(4vh);
+}
+
+.pressed {
+    box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .button {
+        width: 100%;
+    }
+}

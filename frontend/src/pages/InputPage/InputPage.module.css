@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: -20vh;
+}
+
+.nurseImage {
+    position: absolute;
+    bottom: 15vh;
+    width: auto;
+    height: 50vh;
+    z-index: 1;
+}
+
+.symptomContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #A7DAFF;
+    padding: 2vh 1vw;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.symptomImage {
+    width: auto;
+    height: 20vh;
+    margin-right: 2vw;
+    border-radius: 15px;
+}
+
+.symptomTextContainer {
+    position: relative;
+}
+
+.symptomText {
+    position: relative;
+    width: 40vw;
+    height: 20vh;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-size: 2vh;
+    line-height: 25px;
+    background: linear-gradient(to bottom, #ffffff 24px, #000000 24.5px);
+    background-size: 100% 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.symptomTextLength {
+    position: absolute;
+    right: 0.5vw;
+    bottom: 1vh;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0.5vh 0.25vw;
+    border-radius: 5px;
+    font-size: 2vh;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .symptomContainer {
+        width: 100%;
+    }
+
+    .symptomImage {
+        width: 0;
+        visibility: hidden;
+    }
+
+    .symptomTextContainer {
+        width: 100%;
+    }
+
+    .symptomText {
+        width: 100%;
+    }
+}

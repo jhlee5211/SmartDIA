@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.footerText {
+    color: #358FE2;
+    font-size: 2vh;
+    padding: 0 20px;
+}
+
+.footerImage {
+    position: absolute;
+    right: 20px;
+    width: 8vw;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .footerImage {
+        visibility: hidden;
+    }
+}
